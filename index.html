@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Ferramentas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="top-bar">
+        <a href="#" class="logo">
+            <img src="https://placehold.co/80x40/007BFF/FFFFFF" alt="Logo">
+        </a>
+        
+        <div class="search-container">
+            <input type="text" placeholder="pesquisar..." class="search-bar">
+            <button class="search-button" aria-label="pesquisar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+        <button class="login-button">entrar</button>
+    </header>
+     
+    <h1 class="title">caixa de ferramentas</h1>
+       
+    <main class="main-container">
+        <aside class="sidebar-menu">
+            <h3>lista de efeitos</h3>
+            <ul id="toc-list"></ul>
+        </aside>
+          
+        <div class="effects-column">
+            <div class="effect-card" id="double-sided">
+                <div class="effect-box card">
+                    <div class="trigger-card">
+                        <div class="front">
+                            <h2>Front Side</h2>
+                            <p>Conteúdo de texto</p>
+                        </div>
+                        <div class="back">
+                            <h2>Back Side</h2>
+                            <p>Conteúdo de texto 2</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Double-sided-card</h3>
+                <p>Animação de virada 3D no eixo Y.</p>
+            </div>
+
+            <div class="effect-card" id="explode">
+                <div class="effect-box explode-box">
+                    <h2>EXPLODE</h2>
+                </div>
+                <h3>Efeito de texto explosivo</h3>
+                <p>Efeito visual ao passar o mouse.</p>
+            </div>
+
+            <div class="effect-card" id="transformer">
+                <div class="effect-box liquid-morph-box">
+                    <h2>TRANSFORM</h2>
+                </div>
+                <h3>Transformação</h3>
+                <p>Modifica forma e rotação.</p>
+            </div>
+
+            <div class="effect-card" id="holografico">
+                <div class="effect-box holographic-box">
+                    <h2>HOLOGRAMA</h2>
+                </div>
+                <h3>Cartão holográfico</h3>
+                <p>Brilho gradiente e escala.</p>
+            </div>
+
+            <div class="effect-card" id="sombra-3d">
+                <div class="effect-box effect-shadow"></div>
+                <h3>1 - Sombra 3D Flutuante</h3>
+                <p>Efeito de levitação com profundidade.</p>
+            </div>
+
+            <div class="effect-card" id="rotacao-hover">
+                <div class="effect-box effect-rotate"></div>
+                <h3>2 - Rotação no Hover</h3>
+                <p>Giro suave de 360 graus.</p>
+            </div>
+
+            <div class="effect-card" id="gradiente-animado">
+                <div class="effect-box effect-gradient"></div>
+                <h3>3 - Gradiente Animado</h3>
+                <p>Cores vibrantes em movimento contínuo.</p>
+            </div>
+
+            <div class="effect-card" id="mudanca-de-cor">
+                <div class="effect-box effect-transition"></div>
+                <h3>4 - Transição Animada</h3>
+                <p>Mudança contínua de fundo.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
